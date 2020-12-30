@@ -1,0 +1,17 @@
+@media (min-width: 320px) {
+  .search-group {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-group {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1120px) {
+  .search-group {
+    width: 25%;
+  }
+}

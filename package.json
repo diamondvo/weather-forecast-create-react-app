@@ -1,0 +1,68 @@
+{
+  "name": "vdc-weather",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "moment": "^2.29.1",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/preset-env": "^7.12.11",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "@types/node": "^14.14.16",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.14",
+    "@types/react-test-renderer": "^17.0.0",
+    "@types/redux-mock-store": "^1.0.2",
+    "@types/redux-promise": "^0.5.29",
+    "fetch-mock": "^9.11.0",
+    "node-fetch": "^2.6.1",
+    "react-test-renderer": "^17.0.1",
+    "redux-mock-store": "^1.5.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!src/index.tsx"
+    ]
+  }
+}
