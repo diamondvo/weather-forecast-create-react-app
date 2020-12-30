@@ -1,11 +1,10 @@
 # Weather forecast in 5 days with Create React App
 This project was built with typescript and scss
-
-## Service
-Use `https://openweathermap.org/api`. It is the public apis to integrate with create react app and a real apis for get weather forecast.
+Search the city that you want. The example will show the forecast 5 days of this city.
 
 ## Usage
-Search the city that you want. The example will show the forecast 5 days of this city.
+Service: https://openweathermap.org/api \
+Libraries: typescript, bootstrap, redux, ...
 
 ## Installation:
 
